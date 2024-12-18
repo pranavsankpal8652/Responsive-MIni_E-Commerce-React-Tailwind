@@ -126,18 +126,18 @@ export default function Navbar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="flex flex-col gap-10 py-6">
                 
-                <a href="/products" className="text-sm/6 font-semibold text-gray-900">
+                <Link to="/products" className="text-sm/6 font-semibold text-gray-900">
                   Products
-                </a>
-                <a href="/" className="text-sm/6 font-semibold text-gray-900">
+                </Link>
+                <Link to="/" className="text-sm/6 font-semibold text-gray-900">
                   Home
-                </a>
-                <a href="/about_us" className="text-sm/6 font-semibold text-gray-900">
+                </Link>
+                <Link to="/about_us" className="text-sm/6 font-semibold text-gray-900">
                   About Us
-                </a>
-                <a href="#" className="text-sm/6 font-semibold text-gray-900">
+                </Link>
+                <Link to="#" className="text-sm/6 font-semibold text-gray-900">
                   Services
-                </a>
+                </Link>
               </div>
               <div className="py-6">
                 <a
