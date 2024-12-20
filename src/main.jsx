@@ -9,7 +9,6 @@ import Home from './Components/Home'
 import Category_filters from './Components/Category_filters'
 
 import { BrowserRouter, Route, Routes } from 'react-router';
-import About_us from './Components/About_us';
 import Rootlayout from './Components/Rootlayout';
 import Product_details from './Components/Product_details';
 import Context from './Components/Context';
@@ -27,7 +26,6 @@ createRoot(document.getElementById('root')).render(
       <Route element={<Rootlayout/>}>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/products' element={<Category_filters/>}></Route>
-        <Route path='/about_us' element={<About_us/>}></Route>
         <Route path='/product_details/:id' element={<Product_details/>}></Route>
       </Route>
 

@@ -34,7 +34,7 @@ export default function Product_Section({sortingID,filtersSelected,setloading}) 
         price_from:Price_from || '',
         price_to:Price_to || '',
         discount_from:Discount_Price_from || '',
-        disocunt_to:Discount_Price_to || '',
+        discount_to:Discount_Price_to || '',
         rating:Rating || ''
 
      }})
@@ -90,7 +90,7 @@ export default function Product_Section({sortingID,filtersSelected,setloading}) 
                 {
                 products.map((product) =>{
                   return(
-                    <Product_section_inner product={product} key={product.id}/>
+                    <Product_section_inner product={product} addcart={true} key={product.id}/>
 
                   )
                 }
@@ -104,7 +104,7 @@ export default function Product_Section({sortingID,filtersSelected,setloading}) 
                 {
                 mobiproducts.map((product) =>{
                   return(
-                    <Product_section_inner product={product} key={product.id}/>
+                    <Product_section_inner product={product} addcart={true} key={product.id}/>
 
                   )
                 }

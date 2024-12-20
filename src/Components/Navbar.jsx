@@ -85,7 +85,7 @@ export default function Navbar() {
           <Link to="/" className="text-sm font-semibold text-gray-900">
             Home
           </Link>
-          <Link to="/about_us" className="text-sm font-semibold text-gray-900">
+          <Link to="#" className="text-sm font-semibold text-gray-900">
             About Us
           </Link>
           <Link to="#" className="text-sm font-semibold text-gray-900">
@@ -97,9 +97,7 @@ export default function Navbar() {
             View Cart{`(${cartItems.length})`}  <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
-        {
-           console.log(displayCanvas)
-        }
+        
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden z-[200]">
         <div className="fixed inset-0 z-10" />
@@ -132,7 +130,7 @@ export default function Navbar() {
                 <Link to="/" className="text-sm/6 font-semibold text-gray-900">
                   Home
                 </Link>
-                <Link to="/about_us" className="text-sm/6 font-semibold text-gray-900">
+                <Link to="#" className="text-sm/6 font-semibold text-gray-900">
                   About Us
                 </Link>
                 <Link to="#" className="text-sm/6 font-semibold text-gray-900">
